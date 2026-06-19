@@ -37,6 +37,14 @@ cp -r unreal-mcp-setup <your-project>/.claude/skills/
 
 On Windows the global path is `C:\Users\<you>\.claude\skills\`.
 
+**Or use the install script** (installs all skills into your global dir):
+```bash
+./install.sh            # macOS/Linux/Git Bash   — or ./install.sh <skill-name>
+```
+```powershell
+.\install.ps1           # Windows PowerShell      — or .\install.ps1 <skill-name>
+```
+
 Skills load at startup — **restart Claude Code** after copying, and the skill triggers
 automatically when its description matches what you ask.
 
